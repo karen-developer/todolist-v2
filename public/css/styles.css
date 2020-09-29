@@ -5,7 +5,9 @@ html {
   font-family: 'helvetica neue';
 }
 
-
+body {
+  height: 100hv;
+}
 
 h1 {
   color: #fff;
@@ -22,7 +24,7 @@ h1 {
 
 #heading {
   margin: 100px auto 0;
-  background-color: #596e79;
+  background-color: #6c737e;
   text-align: center;
 }
 
@@ -39,7 +41,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #596e79;
+  text-decoration-color: #83142c;
 }
 
 input[type="checkbox"] {
@@ -85,7 +87,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #596e79;
+  box-shadow: inset 0 -3px 0 0 grey;
 }
 
 ::placeholder {
