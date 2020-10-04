@@ -35,7 +35,7 @@ const item3 = new Item({
 });
 
 const item4 = new Item({
-  name: "Welcome to visit karen-developer.com"
+  name: "Try to delete all items and see what happens."
 });
 
 const defaultItems = [item1, item2, item3, item4];
