@@ -13,11 +13,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-<<<<<<< HEAD
-mongoose.connect("mongodb+srv://user:password@cluster0.8e2vj.mongodb.net/todolistDB?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
-=======
-mongoose.connect("mongodb+srv://admin:xxx@cluster0.8e2vj.mongodb.net/todolistDB?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
->>>>>>> af52fc7a4e8baf0032769aa7d5a0884fa84c3c2a
+mongoose.connect("mongodb+srv://admin-karen:todolistDB@cluster0.8e2vj.mongodb.net/todolistDB?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const itemsSchema = {
   name: String
@@ -138,10 +134,6 @@ app.post("/delete", function(req, res){
   }
 
 
-});
-
-app.get("/about", function(req, res){
-  res.render("about");
 });
 
 let port = process.env.PORT;
